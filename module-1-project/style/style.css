@@ -1,0 +1,274 @@
+body {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    max-width: 956px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    font-style: normal;
+    color: #121212;
+    letter-spacing: -0.03em;
+    padding-bottom: 30px;
+}
+
+/* ContainerTeam - H+IMG+P */
+.containerTeam {
+    max-width: 1150px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+/* 1 картинка */ 
+.firstBlok {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(../resources/1picture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*Мы команда*/
+.firstBlokText {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+/* О НАС */
+.aboutUsUs {
+    margin-top: 150px;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+}
+
+/* Студия основана в 2011 году */
+
+p.aboutUs {
+    width: 1048px;
+    height: 366px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    margin-right: 175px;
+    
+}
+
+
+/* Посмотреть услуги */
+
+.aboutUs__link {
+    display: inline-block;
+    width: 255px;
+    height: 67px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 67px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ad1818;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.projects {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.containerProjectsFull {
+    max-width: 1150px;
+    box-sizing: content-box;
+    margin: 0px auto;
+}
+
+/* ЖК Правобережный */
+.firstBlock__text-wrapper {
+    margin-bottom: 90px;
+}
+.firstBlock {
+    width: 1150px;
+    height: 450px;
+    margin-bottom: 15px;
+    margin-right: 0px 125px
+}
+
+.firstBlock__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.firstBlock__link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+/* ЖК Норвежский Парк */
+
+.secondBlock__text-wrapper {
+    margin-bottom: 90px;
+}
+.secondBlock {
+    width: 1150px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.secondBlock__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.secondBlock__link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+/* ЖК Сосновские Озера */
+
+.thirdBlock__text-wrapper {
+    margin-bottom: 90px;
+}
+.thirdBlock {
+    width: 1150px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.thirdBlock__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.thirdBlock__link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+.seeAllProjects {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 41px;
+    width: 1150px;
+    height: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #AD1818;
+    margin-bottom: 150px;
+}
+
+.btn {
+    align-items: center;
+}
+
+.seeAllProjects:hover {
+    color: white;
+    background-color: #AD1818;
+}
+
+/* Услуги  */
+
+.services__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 151px;
+    padding-bottom: 34px;
+}
+
+.section__services {
+    
+    background-color: #121212;
+    color: #FFFFFF;
+    padding-bottom: 150px;
+}
+
+.services__container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.firstServiceImg {
+    margin-bottom: 15px;
+}
+
+.serviceBlock {
+    margin-bottom: 60px;
+}
+
+.firstService {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+
+.forestScenery {
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background-image: url(../resources/lesnoypeizaj.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.forestSceneryText {
+    position: absolute;
+    padding-left: 125px;
+    bottom: 60px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: white;
+}
